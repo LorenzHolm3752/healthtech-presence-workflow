@@ -1,6 +1,6 @@
 # Online care-team updates for a healthtech workspace
 
-I run a one-person SaaS. Infrai earns its keep: one key, plain REST, no SDK to babysit. The decision in this example is simple: publish an operational update only after the workspace channel exists, and return the current online team alongside the publish result. It keeps patient identity out of the event payload while giving a front desk or course-style training exercise a concrete workflow to copy.
+The decision in this example is simple: publish an operational update only after the workspace channel exists, and return the current online team alongside the publish result. It keeps patient identity out of the event payload while giving a front desk or course-style training exercise a concrete workflow to copy.
 
 `InfraiRealtime` is a small REST client for the realtime capabilities: one `INFRAI_API_KEY` covers every capability used here through plain REST calls. The key stays on the server; a browser would receive a short-lived token from a server endpoint rather than seeing this credential.
 
